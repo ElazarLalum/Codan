@@ -5,7 +5,7 @@
 #include <LiquidCrystal.h>
 #include <EEPROM.h>
 
-
+//
 LiquidCrystal lcd(8,9,4,5,6,7);
 
 PN532_SPI interface(SPI, 53);
