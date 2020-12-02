@@ -1,0 +1,76 @@
+(ExpressProject "Codan"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "c:\cadence\spb_16.6\tools\capture\library\mylibrary.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\codan.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (ESP8266-01
+      (FullPartName "ESP8266-01.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (Servo
+      (FullPartName "Servo.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (BATTERY
+      (FullPartName "BATTERY.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (Terminal
+      (FullPartName "Terminal.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    ("Keyestudio ks025"
+      (FullPartName "Keyestudio ks025.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (Keypad
+      (FullPartName "Keypad.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    ("LCDKeypad Shield v2.0"
+      (FullPartName "LCDKeypad Shield v2.0.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    ("Arduino Mega"
+      (FullPartName "Arduino Mega.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\MYLIBRARY.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.6\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Z:\Liron's Projects\Codan\HW\codan.dsn")
+      (Path "Design Resources" "Z:\Liron's Projects\Codan\HW\codan.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 497"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 25 1623 25 609")
+        (Scroll "-86 13")
+        (Zoom "142")
+        (Occurrence "/"))
+      (Path "Z:\LIRON'S PROJECTS\CODAN\HW\CODAN.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Codan")))
+  (MPSSessionName "Integration"))
